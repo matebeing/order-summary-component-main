@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,3 +8,123 @@
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background: url('../images/pattern-background-desktop.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+main {
+    background-color: hsl(225, 100%, 98%);
+    max-width: 416px;
+    border-radius: 1rem;
+    margin: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+main img {
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+main section h1 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color:  hsl(223, 47%, 23%);
+}
+
+main section p {
+    text-align: center;
+    color:  hsl(224, 23%, 55%);
+}
+
+div.music-plan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 2rem 0;
+    padding: 1.5rem 1rem;
+    background-color: #f1f1f3;
+    border-radius: 0.5rem;
+}
+
+div.music-plan-price {
+    display: flex;
+    align-items: center;
+}
+
+div.price {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.price strong {
+    color: hsl(223, 47%, 23%);
+}
+
+div.price span {
+    color: hsl(224, 23%, 55%);
+    font-weight: 600;
+}
+
+div.music-plan-price img {
+    width: 48px;
+    margin-right: 1rem;
+}
+
+div.music-plan a {
+    font-weight: 700;
+    color:  hsl(245, 75%, 52%);
+    font-size: 90%;
+    transition: all 1s;
+}
+
+div.music-plan a:hover {
+    color: hsl(223, 47%, 23%);
+    text-decoration: none;
+}
+
+section button {
+    cursor: pointer;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 15px;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 0px 10px 20px hsl(245, 75%, 80%);
+    transition: background-color 0.6s;
+}
+
+section button:hover {
+    background-color: hsl(245, 81%, 60%);
+}
+
+section > a {
+    margin-bottom: 2rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: hsl(224, 23%, 55%);
+    font-size: 0.8em;
+}
