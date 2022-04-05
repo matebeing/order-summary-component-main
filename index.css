@@ -10,7 +10,7 @@
 .attribution a { color: hsl(228, 45%, 44%); }
 
 body {
-    background: url('../images/pattern-background-desktop.svg');
+    background: url('./images/pattern-background-desktop.svg');
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: hsl(225, 100%, 94%);
@@ -19,6 +19,7 @@ body {
     justify-content: center;
     flex-direction: column;
     width: 100%;
+    height: 100%;
     font-family: 'Red Hat Display', sans-serif;
 }
 
@@ -41,7 +42,6 @@ section {
     flex-direction: column;
     padding: 0 2rem;
     width: 100%;
-    height: 100%;
 }
 
 main section h1 {
